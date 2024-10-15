@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SWE CODING</title>
+        <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.freepik.com/512/7541/7541812.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div id="top">SWE CODING DAY</div>
+            <div id="headerImg"></div>
+            <div id="title">SWE CODING DAY</div>
+        </header>
+        <nav id="mainNav"><ul><a class="link" href="#introduction"><li>Introduction</li></a><a href="#formating"><li>Formating</li></a><a href="#styling"><li>Styling</li></a><a href="#whatNow"><li>What Now?</li></a></ul></nav>
+        <main>
+            <article id="introduction">
+                <h1 class="sectionTitle">Introduction</h1>
+                <div class="middleWrapper">
+                    <div class="middle">
+                        <h2>HTML</h2>
+                        <h3>3 Parts of HTML</h3>
+                        <p>There are 3 main parts to coding websites in HTML:</p>
+                        <ul>
+                            <li>HTML (text)</li><li>CSS (make it pretty)</li><li>JS (interacting)</li>
+                        </ul>
+                        <p>Today we will be focusing on HTML...</p>
+                        <h3>HTML Structure</h3>
+                        <p>Always start code by typing this structure: 
+                            <br>&lt;!DOCTYPE&gt;
+                            <br>&lt;html&gt;
+                            <div style="margin-left: 25px;">
+                                &lt;head&gt;
+                                <br>&lt;/head&gt;
+                                <br>&lt;body&gt;
+                                <br>&lt;/body&gt;
+                            </div>
+                            <br>&lt;/html&gt;
+                        </p>
+                        <p>Anything that inside &lt;  &gt; is called a tag (see next section).</p>
+                        <p>The <b>body tag</b> is where you will code things that users will see. (All the text you see on the screen)</p>
+                        <p>The <b>head tag</b> is where you will code things that users can not see. (colors, interactive components)</p>
+                    </div>
+                    <div class="middle">
+                        <h2>Tags</h2>
+                        <h3>What are tags?</h3>
+                        <p>Tags are used to display and format the webpage.</p>
+                        <h3>Example of tags</h3>
+                        <ul>
+                            <li>&lt;body&gt; - holds elements that are displayed on the page</li><li>&lt;h1&gt; - displays a heading</li><li>&lt;img&gt; - displays an image</li>
+                        </ul>
+                        <p>All tags start with &lt;tagname&gt; and end with &lt;/tagname&gt;</p>
+                    </div>
+                    <div class="middle">
+                        <h2>HTML Styles</h2>
+                        <p>Instead of learning CSS, we will be learning how to make things pretty with HTML styles</p>
+                        <h3>To use CSS properties in HTML, you define a style attribute in the element tag that you wish to modify</h3>
+                        <h3>Example:</h3>
+                        <p>&lt;div style="property:value;"&gt;&lt;/div&gt;</p>
+                        <p>Inside the style attribute, define a property and a value sepreating the two with a colon. Don't forget to put them in quotes!</p>
+                        <p>Click <a href="https://www.w3schools.com/html/html_styles.asp" target="_blank">here</a> to learn more!</p>
+                    </div>
+                </div>
+            </article>
+            <article id="formating">
+                <h1 class="sectionTitle">Formating</h1>
+                <left>
+                    <div class="left">
+                        <h2>Heading Tags</h2>
+                        <p>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</p>
+                        <p>These tags are used to create headings</p>
+                        <h3>Example code:</h3>
+                        <p>&lt;h1&gt;Look! I'm coding!&lt;/h1&gt;</p>
+                        <h3>Output:</h3>
+                        <h1>Look, I'm coding!</h1>
+                        <p>There are 6 heading tags: h1 is the largest, h6 is the smallest</p>
+                        <p>Click <a href="https://www.w3schools.com/htmL/html_headings.asp" target="_blank">here</a> for more info on headings!</p>
+                        <p>Try the problem on the right for practice!</p>
+                    </div>
+                    <div class="left">
+                        <h2>Line Break</h2>
+                        <p>&lt;br&gt;</p>
+                        <p>This tag is used to create line breaks</p>
+                        <h3>Example code:</h3>
+                        <p>Hello World&lt;br&gt;Goodbye World&lt;br&gt;!!!</p>
+                        <h3>Output:</h3>
+                        <p>Hello World<br>Goodbye World<br>!!!</p>
+                        <p>Click <a href="https://www.w3schools.com/tags/tag_br.asp" target="_blank">here</a> for more info on the &lt;br&gt; tag!</p>
+                        <p>Try the problem on the right for practice!</p>
+                    </div>
+                    <div class="left">
+                        <h2>Images</h2>
+                        <p>&lt;img&gt;</p>
+                        <p>This tag is used to display images</p>
+                        <h3>Example code:</h3>
+                        <p>&lt;img src="imgExample.jpg"&gt;</p>
+                        <h3>Output:</h3>
+                        <p><img style="width:150px" src="imgExample.jpg"></p>
+                        <p>Notice that this tag doesn't need an ending tag like &lt;/img&gt;</p>
+                        <p>Click <a href="https://www.w3schools.com/html/html_images.asp" target="_blank">here</a> for more info on the &lt;img&gt; tag!</p>
+                        <p>Try the problem on the right for practice!</p>
+                    </div>
+                    <div class="left">
+                        <h2>Div</h2>
+                        <p>&lt;div&gt;</p>
+                        <p>This tag is used hold text and other elements (helps with organization and grouping)</p>
+                        <h3>Example code:</h3>
+                        <p>&lt;div&gt;<br>&nbsp;&lt;h1&gt;Look! I'm coding!&lt;/h1&gt;<br>&nbsp;&lt;p&gt;Hello World&lt;br&gt;Goodbye World&lt;br&gt;!!!&lt;/p&gt;<br>&lt;/div&gt;</p>
+                        <h3>Output:</h3>
+                        <div>
+                            <h1>Look! I'm coding!</h1>
+                            <p>Hello World<br>Goodbye World<br>!!!</p>
+                        </div>
+                        <p>You can not see the div that was created, however! Divs are incredibly important for organization!</p>
+                        <p>Click <a href="https://www.w3schools.com/tags/tag_div.ASP" target="_blank">here</a> for more info on the &lt;div&gt; tag!</p>
+                        <p>Try the problem on the right for practice!</p>
+                    </div>
+                </left>
+    
+                <right>
+                    <div class="right">
+                        <!-- *****************
+                        ****** TRY THIS ******
+                        ****************** -->
+
+                        <h2>Problem - Heading Tags</h2>
+
+                        <p>This is a menu from your friend's restaurant, Tony's hamburgers. Customers have been complaining that the text is too small. What can we do to fix this?</p>
+                        <br>
+                        <div class="menu">
+                            MENU
+                            Burgers:
+                            Hamburger
+                            Cheeseburger
+                            Bacon Burger
+                        </div>
+
+                        <!-- *****************
+                        ********************** 
+                        ****************** -->
+                    </div>
+                    <div class="right">
+                        <!-- *****************
+                        ****** TRY THIS ******
+                        ****************** -->   
+
+                        <h2>Problem - Line Breaks</h2>
+
+                        <p>Tony decides to add more items to his menu...but it is a bit hard to read. Can you help him format it so that is looks like this?</p>
+                        <img style="border: 5px slateGrey solid;width:200px;margin:10px;border-radius: 10px;" src="brExample.png">
+                        <br>
+                        <div class="menu">
+                            MENU
+                            Burgers:
+                            Hamburger
+                            Cheeseburger
+                            Bacon Burger
+                            Fries and Rings:
+                            French Rings
+                            Chili Cheese Fries
+                            Asada Fries
+                            Beverages:
+                            Root Beverages
+                            Horchata
+                            Orange Juice
+                        </div>
+                        
+                        <!-- *****************
+                        ********************** 
+                        ****************** -->                    
+                    </div>
+                    <div class="right">
+                        <!-- *****************
+                        ****** TRY THIS ******
+                        ****************** -->  
+
+                        <h2>Problem - Images</h2>
+
+                        <p>Tony has noticed that the business at his restaurant has not been great. He thinks this is because his menu is too boring. Help him add three pictures to his menu to attract more customers!</p>
+                        <br>
+                        <div class="menu">
+                            (copy and paste code from last problem)
+                        </div>
+
+                        <!-- *****************
+                        ********************** 
+                        ****************** -->                    
+                    </div>
+                    <div class="right">
+                        <!-- *****************
+                        ****** TRY THIS ******
+                        ****************** -->                          
+                        
+                        <h2>Problem - Div</h2>
+
+                        <p>To be more organized, group the three parts of the menu- Burgers, Fries and Rings, Beverages- into three seperate divs</p>
+                        <br>
+                        <div class="menu">
+                            (copy and paste code from last problem)
+                        </div>
+
+                        <!-- *****************
+                        ********************** 
+                        ****************** -->                    
+                    </div>
+                    <div class="right">
+                        <!-- *****************
+                        ****** TRY THIS ******
+                        ****************** -->                          
+                        
+                        <h2>CHALLENGE</h2>
+
+                        <p>On your own, look at 
+                            <a href="https://www.w3schools.com/html/html_formatting.asp" target="_blank"> HTML Text Formating</a> 
+                            and try to implement it into Tony's menu!
+                        </p>
+                        <br>
+                        <div class="menu">
+                            (copy and paste code from last problem)
+                        </div>
+
+                        <!-- *****************
+                        ********************** 
+                        ****************** -->                    
+                    </div>
+                </right>
+            </article>
+            <article id="styling">
+                <h1 class="sectionTitle">Styling</h1>
+                <left>
+                    <div class="left">
+                        <h2>Background Color</h2>
+                        <p>style="background-color: color"</p>
+                        <p>This css property is used add a color to the background of an element</p>
+                        <h3>Example code:</h3>
+                        <p>&lt;div style="background-color: white;"&gt;Look! I'm coding!&lt;/div&gt;</p>
+                        <h3>Output:</h3>
+                        <div style="background-color: white;">Look, I'm coding!</div>
+                        <p>Click <a href="https://www.w3schools.com/cssref/css_colors.php" target="_blank">here</a> for more color options!</p>
+                        <p>Click <a href="https://www.w3schools.com/css/css_background.asp" target="_blank">here</a> for more info on background-color!</p>
+                        <p>Try the problem on the right for practice!</p>
+                    </div>
+                    <div class="left">
+                        <h2>Color</h2>
+                        <p>style="color: color"</p>
+                        <p>This css property is used to add color to text</p>
+                        <h3>Example code:</h3>
+                        <p>&lt;div style="color: darkRed;"&gt;Look! I'm coding!&lt;/div&gt;</p>
+                        <h3>Output:</h3>
+                        <div style="color: darkRed;">Look, I'm coding!</div>
+                        <p>Click <a href="https://www.w3schools.com/cssref/css_colors.php" target="_blank">here</a> for more color options!</p>
+                        <p>Click <a href="https://www.w3schools.com/cssref/pr_text_color.php" target="_blank">here</a> for more info on color!</p>
+                        <p>Try the problem on the right for practice!</p>
+                    </div>
+                    <div class="left">
+                        <h2>Border</h2>
+                        <p>style="border: borderWidth borderStyle borderColor"</p>
+                        <p>This css property is used to add a border to an element</p>
+                        <h3>Example code:</h3>
+                        <p>&lt;div style="border: 5px solid steelBlue;"&gt;Look! I'm coding!&lt;/div&gt;</p>
+                        <h3>Output:</h3>
+                        <div style="border: 5px solid steelBlue;">Look, I'm coding!</div>
+                        <p>Click <a href="https://www.w3schools.com/cssref/css_colors.php" target="_blank">here</a> for more color options!</p>
+                        <p>Click <a href="https://www.w3schools.com/css/css_border.asp" target="_blank">here</a> for more info on borders!</p>
+                        <p>Try the problem on the right for practice!</p>
+                    </div>
+                </left>
+    
+                <right>
+                    <div class="right">
+                        <!-- *****************
+                        ****** TRY THIS ******
+                        ****************** -->                          
+                        
+                        <h2>Problem - Background Color</h2>
+
+                        <p>Tony thinks his menu is not attracting enough attention. What can we do to make sure that it really stands out?</p>
+                        <br>
+                        <div class="menu">
+                            (copy and paste code from last problem)
+                        </div>
+
+                        <!-- *****************
+                        ********************** 
+                        ****************** -->                    
+                    </div>
+                    <div class="right">
+                        <!-- *****************
+                        ****** TRY THIS ******
+                        ****************** -->                          
+                        
+                        <h2>Problem - Color</h2>
+
+                        <p>Tony wants more color! Change the color of the text too!</p>
+                        <br>
+                        <div class="menu">
+                            (copy and paste code from last problem)
+                        </div>
+
+                        <!-- *****************
+                        ********************** 
+                        ****************** -->                    
+                    </div>
+                    <div class="right">
+                        <!-- *****************
+                        ****** TRY THIS ******
+                        ****************** -->                          
+                        
+                        <h2>Problem - Border</h2>
+
+                        <p>Tony likes what you have been doing to his menu! Now he want borders on all the images!</p>
+                        <br>
+                        <div class="menu">
+                            (copy and paste code from last problem)
+                        </div>
+
+                        <!-- *****************
+                        ********************** 
+                        ****************** -->                    
+                    </div>
+                    <div class="right">
+                        <!-- *****************
+                        ****** TRY THIS ******
+                        ****************** -->                          
+                        
+                        <h2>CHALLENGE</h2>
+
+                        <p>Tony wants you to change the font of the menu... How can we do this?</p>
+                        <br>
+                        <div class="menu">
+                            (copy and paste code from last problem)
+                        </div>
+
+                        <!-- *****************
+                        ********************** 
+                        ****************** -->                    
+                    </div>
+                </right>
+            </article>
+            <article id="whatNow">
+                <h1 class="sectionTitle">What Now?</h1>
+                <div class="middleWrapper">
+                    <div class="middle">
+                        <h2>Create your own webpage!</h2>
+                        <p>Draw out your dream website on paper as detailed as possible...</p>
+                        <p>Then bring it to reality!</p>  
+                        <h2>Or</h2>
+                        <p>Try to copy another website like Amazon!</p>
+                        <p>Make it so that you can't tell your website apart from the original</p>
+                    </div>
+                    <div class="middle">
+                        <h2>Take advantage of resources!</h2>
+                        <p>Free <a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a> tutorial!</p>
+                        <p>Free <a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a> tutorial!</p>
+                        <p>Free <a href="https://www.w3schools.com/js/default.asp" target="_blank">JS</a> tutorial!</p>
+                    </div>
+                    <div class="middle">
+                        <h2>Download Visual Studio Code</h2>
+                        <p>Click <a href="https://code.visualstudio.com/download" target="_blank">here</a> to download!</p>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
